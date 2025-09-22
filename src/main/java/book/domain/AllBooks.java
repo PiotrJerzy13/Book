@@ -3,6 +3,7 @@ package book.domain;
 import java.util.ArrayList;
 import java.util.List;
 
+
 /**
  * Root composite representing a collection of {@link Book}s.
  */
@@ -25,7 +26,7 @@ public class AllBooks implements Text {
                     .mapToInt(Book::getNumberOfWords)
                     .sum();
     }
-
+    public List<Book> getBooks() { return books; }
 	/** {@inheritDoc} */
 	@Override
 	public List<Verse> getVersesContainingWord(String word) {

@@ -44,7 +44,7 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>3.5.1</version>
                 <configuration>
-                    <mainClass>zoo.Application</mainClass>
+                    <mainClass>book.Application</mainClass>
                 </configuration>
             </plugin>
         </plugins>

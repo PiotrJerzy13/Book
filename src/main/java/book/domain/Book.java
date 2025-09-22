@@ -3,6 +3,7 @@ package book.domain;
 import java.util.ArrayList;
 import java.util.List;
 
+
 /**
  * Composite node that groups {@link Part} instances (e.g., a book like "Genesis").
  */
@@ -25,6 +26,7 @@ public class Book implements Text {
         parts.add(part);
     }
 
+    public List<Part> getParts() { return parts; }
 	/** {@inheritDoc} */
     @Override
     public int getNumberOfWords() {

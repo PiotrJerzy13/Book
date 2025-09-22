@@ -3,6 +3,7 @@ package book.domain;
 import java.util.ArrayList;
 import java.util.List;
 
+
 /**
  * Composite node that groups {@link Verse} instances (e.g., a chapter).
  */
@@ -27,6 +28,7 @@ import java.util.List;
 	/** The parent {@link Book} of this part (may be {@code null} if not attached). */
 	public Book getParent() { return parent; }
 
+    public List<Verse> getVerses() { return verses; }
 	/**
      * Adds a verse to this part and sets its parent.
      *
