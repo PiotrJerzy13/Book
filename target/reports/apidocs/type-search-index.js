@@ -1,1 +1,0 @@
-typeSearchIndex = [{"p":"book.domain","l":"AllBooks"},{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"book","l":"Application"},{"p":"book.domain","l":"Book"},{"p":"book.domain","l":"Part"},{"p":"book","l":"TestDataCreator"},{"p":"book.domain","l":"Text"},{"p":"book","l":"Text"},{"p":"book.domain","l":"Verse"}];updateSearchResults();
